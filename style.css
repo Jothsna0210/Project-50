@@ -1,0 +1,66 @@
+*{
+    background:black ;
+}
+
+a{
+    color:aqua;
+}
+
+h1{
+    background-image: linear-gradient(to right,violet,indigo,blue,lightgreen,yellow,orange,red);
+    background-clip: black;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p1{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10mm;
+    background-color: transparent;
+}
+
+h3{
+    color: black;
+    background-color: transparent;
+}
+
+.bodypara{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.origami{
+    border: 5px solid;
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: Arial;
+    border-color: white;
+}
+
+li{
+    background-color: white;
+    background-clip: white;
+    background: white;
+}
